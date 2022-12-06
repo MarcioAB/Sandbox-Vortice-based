@@ -1,0 +1,1 @@
+<Project> <PropertyGroup>   <DefineConstants>D3D12</DefineConstants> </PropertyGroup></Project> 

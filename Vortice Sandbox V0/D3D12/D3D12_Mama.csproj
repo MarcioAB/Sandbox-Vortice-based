@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="D3D12_MyDrawSets.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vortice.Dxc" Version="2.1.42-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\D3D\D3D_Mama.csproj" />
+  </ItemGroup>
+
+</Project>
